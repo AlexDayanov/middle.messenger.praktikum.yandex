@@ -1,0 +1,12 @@
+<form class="{{formClassName}}" id="{{formId}}" name="{{formName}}" action="{{formAction}}" {{#if
+    autocomplete}}autocomplete{{/if}} {{#if novalidate}}novalidate{{/if}}>
+
+    {{#if caption}}{{>caption/caption caption}}{{/if}}
+    {{#if avatar}}{{>avatar/avatar avatar}}{{/if}}
+    {{#each inputs}}
+    {{>formInput/formInput input=.}}
+    {{/each}}
+    {{>submitButton/submitButton submitButton}}
+    {{#if link}} {{>formLink/formLink link}} {{/if}}
+
+</form>

@@ -1,0 +1,17 @@
+.chatinput__sendbutton_size_m {
+  width: 30px;
+  height: 30px;
+}
+
+.chatinput__sendbutton_margin-left_10px {
+  margin-left: 10px;
+}
+
+.chatinput__sendbutton_color_lightblue {
+  color: var(--lightblue);
+}
+
+/* TODO не работает :hover */
+.chatinput__sendbutton:hover {
+  border: 1px solid var(--lightlilac);
+}

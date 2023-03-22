@@ -1,0 +1,15 @@
+.listcontainer {
+  flex-grow: 1;
+  display: contents;
+  flex-direction: column;
+}
+
+.chat__listcontainer {
+  display: contents;
+  width: 100%;
+  min-width: min-content;
+}
+
+.chat__listcontainer_max-width-1024px {
+  max-width: 1024px;
+}

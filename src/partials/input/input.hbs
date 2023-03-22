@@ -1,0 +1,10 @@
+<label class="{{labelClassName}}">
+
+    <input class="{{inputClassName}}" name="{{name}}" value="{{value}}" type="{{type}}" placeholder="{{placeholder}}"
+        {{#if pattern}} pattern={{pattern}} {{/if}} {{#if minlength}} minlength={{minlength}} {{/if}} {{#if maxlength}}
+        maxlength={{maxlength}} {{/if}} {{#if autocomplete}} autocomplete {{/if}} {{#if required}} required {{/if}} />
+
+    <span class="{{inputHintClassName}}">{{inputHint}}</span>
+    <span class="{{errorMessageClassName}}">{{errorMessage}}</span>
+
+</label>
