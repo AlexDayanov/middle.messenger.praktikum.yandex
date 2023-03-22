@@ -8,4 +8,4 @@ Netlify: https://lucky-phoenix-6908f9.netlify.app/
 
 dev-сборка: npm run dev;
 
-express: npm start;
+express: npm run start;
