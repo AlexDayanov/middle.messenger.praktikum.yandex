@@ -1,0 +1,66 @@
+.input {
+  text-align: center;
+  position: relative;
+  display: block;
+}
+
+.input_wide {
+  width: 100%;
+}
+
+.input__control {
+  position: relative;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.input__control_with-adjustable-height {
+  height: 23px;
+}
+
+.input__control_border-color_blue {
+  border: 1px solid var(--lightblue);
+  border-radius: 7px;
+}
+
+.input__error {
+  position: absolute;
+  visibility: hidden;
+  left: 0;
+  top: 0;
+}
+
+.input__error_red {
+  color: red;
+}
+
+.input__error_font-size_11 {
+  font-size: 11px;
+}
+
+.input__control:required:not(:focus):not(:placeholder-shown):invalid
+  ~ .input__error {
+  visibility: visible;
+  transform: translate(10px, 3em);
+}
+
+.input__control:required:not(:focus):not(:placeholder-shown):invalid {
+  border: 1px solid var(--red);
+}
+
+.input__control:required:not(:placeholder-shown):valid {
+  border: 1px solid var(--lightgreen);
+}
+
+.input__hint {
+  font-size: 13px;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+}
+
+.input__control:not(:placeholder-shown):focus ~ .input__hint {
+  visibility: visible;
+  transform: translate(10px, -1.15em);
+}
