@@ -4,7 +4,7 @@
     "test": "echo \"no tests yet\"",
     "dev": "parcel ./index.hbs --no-cache",
     "build": "parcel build ./index.hbs --no-cache",
-"start": "npm run build && node server.js"
+    "start": "npm run build && node server.js"
   },
   "license": "ISC",
   "devDependencies": {

@@ -9,7 +9,7 @@
 @import "./input/input.css";
 @import "./formInput/formInput.css";
 @import "./formLink/formLink.css";
-@import "/src/partials/form/form.css";
+@import "./form/form.css";
 @import "./chatInput/chatInput.css";
 @import "./inputSeparator/inputSeparator.css";
 @import "./listContainer/listContainer.css";
