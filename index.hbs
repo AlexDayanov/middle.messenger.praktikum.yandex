@@ -147,13 +147,15 @@ status: {isRead: true},
         <aside class="listcontainer">
           {{>chatList/chatList context.chatList}}
 
-          <div style="height: 50px; text-align:center">
-            <a href="./src/pages/forms/loginForm.hbs">Логин</a>
-            <a href="./src/pages/forms/registerForm.hbs">Регистрация</a>
-            <a href="./src/pages/forms/profileForm.hbs">Профиль</a>
-            <a href="./src/pages/errorPage404.hbs">404</a>
-            <a href="./src/pages/errorPage5xx.hbs">5xx</a>
-          </div>
+          <nav style="height: auto; text-align:center">
+            <ul style="padding:20px; list-style-type:none; display:flex; justify-content:space-around">
+              <li><a href="./src/pages/forms/loginForm.hbs">Логин</a></li>
+              <li><a href="./src/pages/forms/registerForm.hbs">Регистрация</a></li>
+              <li><a href="./src/pages/forms/profileForm.hbs">Профиль</a></li>
+              <li><a href="./src/pages/errorPage404.hbs">404</a></li>
+              <li><a href="./src/pages/errorPage5xx.hbs">5xx</a></li>
+            </ul>
+          </nav>
         </aside>
       </div>
 
